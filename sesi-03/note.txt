@@ -1,0 +1,29 @@
+update > git pull > aman
+update > push > konflik
+sebelum push, kita harus git pull dulu
+
+jika terjadi error
+-git stash
+
+gunakan token, untuk keamanan.
+
+branch > versi versi project kita
+
+main> versi production
+master > versi development
+
+
+github
+-setting>password>two factor authentication
+-setting>developer settings>personal access tokens>generate token> masukin nama note>no expro>ceklis semua>generate>salin token
+
+ssh keys > untuk push di server(cpanel,linux)
+
+buat repo
+new>masukan nama repo>ceklis add readme,gitignore
+
+
+jika repo baru
+-git add . (titik untuk semua data)
+-git commit -m "tambah data baru" (belum ke server)
+-git push
