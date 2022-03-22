@@ -1,0 +1,18 @@
+Sesi-01
+
+cara compile manual
+-mcs hello.cs -out:hello
+
+Cara running manual
+-mono hello
+
+buat file otomatis
+-dotnet new console -n "nama folder"
+
+cara running otomatis
+-dotnet run
+
+setting json:
+
+-ketik "code-runner.executorMap"
+-ubah csharp

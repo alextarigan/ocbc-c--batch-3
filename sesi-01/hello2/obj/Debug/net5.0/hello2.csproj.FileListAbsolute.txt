@@ -1,0 +1,16 @@
+E:\C#\sesi-01\hello2\bin\Debug\net5.0\hello2.exe
+E:\C#\sesi-01\hello2\bin\Debug\net5.0\hello2.deps.json
+E:\C#\sesi-01\hello2\bin\Debug\net5.0\hello2.runtimeconfig.json
+E:\C#\sesi-01\hello2\bin\Debug\net5.0\hello2.runtimeconfig.dev.json
+E:\C#\sesi-01\hello2\bin\Debug\net5.0\hello2.dll
+E:\C#\sesi-01\hello2\bin\Debug\net5.0\ref\hello2.dll
+E:\C#\sesi-01\hello2\bin\Debug\net5.0\hello2.pdb
+E:\C#\sesi-01\hello2\obj\Debug\net5.0\hello2.csproj.AssemblyReference.cache
+E:\C#\sesi-01\hello2\obj\Debug\net5.0\hello2.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\sesi-01\hello2\obj\Debug\net5.0\hello2.AssemblyInfoInputs.cache
+E:\C#\sesi-01\hello2\obj\Debug\net5.0\hello2.AssemblyInfo.cs
+E:\C#\sesi-01\hello2\obj\Debug\net5.0\hello2.csproj.CoreCompileInputs.cache
+E:\C#\sesi-01\hello2\obj\Debug\net5.0\hello2.dll
+E:\C#\sesi-01\hello2\obj\Debug\net5.0\ref\hello2.dll
+E:\C#\sesi-01\hello2\obj\Debug\net5.0\hello2.pdb
+E:\C#\sesi-01\hello2\obj\Debug\net5.0\hello2.genruntimeconfig.cache
