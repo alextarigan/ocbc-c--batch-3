@@ -1,0 +1,16 @@
+E:\C#\sesi-05\Laptop\bin\Debug\net5.0\Laptop.exe
+E:\C#\sesi-05\Laptop\bin\Debug\net5.0\Laptop.deps.json
+E:\C#\sesi-05\Laptop\bin\Debug\net5.0\Laptop.runtimeconfig.json
+E:\C#\sesi-05\Laptop\bin\Debug\net5.0\Laptop.runtimeconfig.dev.json
+E:\C#\sesi-05\Laptop\bin\Debug\net5.0\Laptop.dll
+E:\C#\sesi-05\Laptop\bin\Debug\net5.0\ref\Laptop.dll
+E:\C#\sesi-05\Laptop\bin\Debug\net5.0\Laptop.pdb
+E:\C#\sesi-05\Laptop\obj\Debug\net5.0\Laptop.csproj.AssemblyReference.cache
+E:\C#\sesi-05\Laptop\obj\Debug\net5.0\Laptop.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\sesi-05\Laptop\obj\Debug\net5.0\Laptop.AssemblyInfoInputs.cache
+E:\C#\sesi-05\Laptop\obj\Debug\net5.0\Laptop.AssemblyInfo.cs
+E:\C#\sesi-05\Laptop\obj\Debug\net5.0\Laptop.csproj.CoreCompileInputs.cache
+E:\C#\sesi-05\Laptop\obj\Debug\net5.0\Laptop.dll
+E:\C#\sesi-05\Laptop\obj\Debug\net5.0\ref\Laptop.dll
+E:\C#\sesi-05\Laptop\obj\Debug\net5.0\Laptop.pdb
+E:\C#\sesi-05\Laptop\obj\Debug\net5.0\Laptop.genruntimeconfig.cache

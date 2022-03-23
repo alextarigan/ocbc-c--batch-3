@@ -1,0 +1,16 @@
+E:\C#\sesi-05\Overloading\bin\Debug\net5.0\Overloading.exe
+E:\C#\sesi-05\Overloading\bin\Debug\net5.0\Overloading.deps.json
+E:\C#\sesi-05\Overloading\bin\Debug\net5.0\Overloading.runtimeconfig.json
+E:\C#\sesi-05\Overloading\bin\Debug\net5.0\Overloading.runtimeconfig.dev.json
+E:\C#\sesi-05\Overloading\bin\Debug\net5.0\Overloading.dll
+E:\C#\sesi-05\Overloading\bin\Debug\net5.0\ref\Overloading.dll
+E:\C#\sesi-05\Overloading\bin\Debug\net5.0\Overloading.pdb
+E:\C#\sesi-05\Overloading\obj\Debug\net5.0\Overloading.csproj.AssemblyReference.cache
+E:\C#\sesi-05\Overloading\obj\Debug\net5.0\Overloading.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\sesi-05\Overloading\obj\Debug\net5.0\Overloading.AssemblyInfoInputs.cache
+E:\C#\sesi-05\Overloading\obj\Debug\net5.0\Overloading.AssemblyInfo.cs
+E:\C#\sesi-05\Overloading\obj\Debug\net5.0\Overloading.csproj.CoreCompileInputs.cache
+E:\C#\sesi-05\Overloading\obj\Debug\net5.0\Overloading.dll
+E:\C#\sesi-05\Overloading\obj\Debug\net5.0\ref\Overloading.dll
+E:\C#\sesi-05\Overloading\obj\Debug\net5.0\Overloading.pdb
+E:\C#\sesi-05\Overloading\obj\Debug\net5.0\Overloading.genruntimeconfig.cache

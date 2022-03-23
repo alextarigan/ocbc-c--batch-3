@@ -1,0 +1,16 @@
+E:\C#\sesi-05\inheritancePesawat\obj\Debug\net5.0\inheritancePesawat.csproj.AssemblyReference.cache
+E:\C#\sesi-05\inheritancePesawat\obj\Debug\net5.0\inheritancePesawat.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\sesi-05\inheritancePesawat\obj\Debug\net5.0\inheritancePesawat.AssemblyInfoInputs.cache
+E:\C#\sesi-05\inheritancePesawat\obj\Debug\net5.0\inheritancePesawat.AssemblyInfo.cs
+E:\C#\sesi-05\inheritancePesawat\obj\Debug\net5.0\inheritancePesawat.csproj.CoreCompileInputs.cache
+E:\C#\sesi-05\InheritancePesawat\bin\Debug\net5.0\inheritancePesawat.exe
+E:\C#\sesi-05\InheritancePesawat\bin\Debug\net5.0\inheritancePesawat.deps.json
+E:\C#\sesi-05\InheritancePesawat\bin\Debug\net5.0\inheritancePesawat.runtimeconfig.json
+E:\C#\sesi-05\InheritancePesawat\bin\Debug\net5.0\inheritancePesawat.runtimeconfig.dev.json
+E:\C#\sesi-05\InheritancePesawat\bin\Debug\net5.0\inheritancePesawat.dll
+E:\C#\sesi-05\InheritancePesawat\bin\Debug\net5.0\ref\inheritancePesawat.dll
+E:\C#\sesi-05\InheritancePesawat\bin\Debug\net5.0\inheritancePesawat.pdb
+E:\C#\sesi-05\InheritancePesawat\obj\Debug\net5.0\inheritancePesawat.dll
+E:\C#\sesi-05\InheritancePesawat\obj\Debug\net5.0\ref\inheritancePesawat.dll
+E:\C#\sesi-05\InheritancePesawat\obj\Debug\net5.0\inheritancePesawat.pdb
+E:\C#\sesi-05\InheritancePesawat\obj\Debug\net5.0\inheritancePesawat.genruntimeconfig.cache
