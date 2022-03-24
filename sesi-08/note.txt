@@ -1,0 +1,86 @@
+1. pembuatan aplikasi web asp.net web api dengan template project
+2. pembuatan class controller web api
+    - pembuatan folder
+    - pembuatan file pendukung
+    - konfigurasi > agar class controller dapat di akses dan digunakan
+3. akses web api
+4. buat halaman bantuan (help page) > melihat daftar class  controller serta API
+5. instalasi dan konfigurasi tool test client yang sederhana
+    - untuk mengakses dan menguji api yang telah dibuat
+
+menggunakan template
+--
+Add New Project pilih Visual C# 
+  - pilih Web
+  - pilih ASP.NET Web Application
+  - tuliskan nama project pada kolum name > klik tombol ok
+  - pada window New ASP.NET project
+  - pilih Web API dan klik tombol OK.
+
+cara running
+  - pada Solution Explorer 
+  - pilih Debug > Start new instance.
+  
+jika membuat project kosong 
+  - Pilih File > New Project
+  - pada window Add New Project pilih Visual C# > Web 
+  - pilih ASP.NET Web Application. 
+  - selanjutnya, 
+    - pilih window New ASP.NET Project
+    - pilih Empty
+    - pada area Select a template
+    - centang Web API pada area Add folder and core reference for.
+  - menambahkan class Web API controller
+    - klik kanan pada folder controllers
+    - pilih Add > Web API Controller Class (v2)
+    - beri nama ValuesController sebagai nama class.
+    
+
+
+1. WebApiConfig.cs yang terdapat pada folder App_Start.
+2. Global.asax yang terdapat pada /.
+3. ValuesController.cs yang terdapat pada folder Controllers.
+
+File WebApiConfig.cs berfungsi sebagai konfigurasi Web API routes yang menentukan bagaimana format url untuk mengakses class-class controller.
+http://[nama_domain]/webapi/[nama_controller]/
+
+
+Global.asax 
+File ini berfungsi untuk memanggil dan mengaktifkan konfigurasi Web API pada class WebApiConfig.cs
+saat aplikasi web dijalankan. 
+
+ValuesController.cs > format nama class controller [nama_controller]Controller.cs
+nama class controller yang telah dibuat adalah ValuesController.cs maka dapat ditulis url
+http://[nama_domain]/api/Values/
+
+Pada project Web Application secara default sudah memiliki file Global.asax 
+1. Menambahkan folder App_Start.
+2. Menambahkan file WebApiConfig.cs ke dalam folder App_Start dengan isi seperti yang telah dijelaskan pada awal sesi.
+3. Menambahkan baris untuk mengaktifkan konfigurasi WebApiConfig.cs ke dalam file Global.asax.
+4. Menambahkan folder Controllers.
+5. Menambahkan class Web API Controller pada folder Controllers, pada saat melakukan proses ini secara otomatis akan ditambahkan reference yang berhubungan dengan Web API seperti System.Web.Http dan lain-lain
+
+Misal alamat akses project tersebut adalah http://localhost:11739/ dan nama class controlleradalah ValuesController.cs maka alamat yang diakses adalah :      http://localhost:11739/api/Values/
+
+install WebApiTestClient
+pada solution explorer > klik kanan pilih window Manage NuGet Packages.
+search  pada browser WebApiTestClient
+klik install dan tunggu
+jika sudah install modifikasi file Api.cshtml yang terletak pada folder Areas\HelpPage\Views\Help\
+https://www.nuget.org/packages/WebApiTestClient/
+
+https://docs.microsoft.com/en-us/aspnet/web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
+
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio
+
+https://www.c-sharpcorner.com/UploadFile/2b481f/adding-the-test-api-in-the-Asp-Net-web-api-help-page/
+
+--menambah di ApiSample/ApiSample/Areas/HelpPage/Views/Help/Api.cshtml
+
+@Html.DisplayForModel("TestClientDialogs")
+@section Scripts {
+    @Html.DisplayForModel("TestClientReferences")
+    <link type="text/css" href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+}
+
