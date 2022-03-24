@@ -36,7 +36,7 @@ namespace FormLogin
 
             if(db.Count() == 1)
             {
-                MessageBox.Show("Sukses, kamu berhasil login sebagai" + db.Results(0, "names"));
+                MessageBox.Show("Sukses, kamu berhasil login sebagai " + db.Results(0, "names"));
             }
             else
             {
