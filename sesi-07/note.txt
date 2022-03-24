@@ -1,0 +1,7 @@
+1.create new project
+2.pilih windows form
+3.pilih framework 4.7
+4.kasih nama project name
+
+pin server explorer,data source
+klik view >other windows>pin document outline
