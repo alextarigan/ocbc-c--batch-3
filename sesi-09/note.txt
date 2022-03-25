@@ -1,0 +1,21 @@
+1. Membuat database kantor
+2. membuat tabel employee. field yang digunakan : (id, nama,jenis kelamin, dan alamat) di isi 5 record
+3. buka visual studio
+4. 
+
+buat endpoint error
+
+biasa dipakai
+core web (mvc)
+jika mau ada landing page
+
+core 
+
+
+cara aktifin inputan di swagger
+
+
+Cara postman
+-tambah folder
+-kasih nama collection
+-
