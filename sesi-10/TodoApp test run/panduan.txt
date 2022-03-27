@@ -1,0 +1,15 @@
+langkah-langkah membuat bets practice sesi 10
+
+1. install dotnet 5
+2. install tool (dbeaver, postman, dll)
+3. create project  from vscode
+4. generate melalui terminal (aplikasi .net core web api)
+> sintaks terminal > 
+a.dotnet new webapi
+b.dotnet add package namalibrary    
+
+dotnet tool install --global dotnet-ef
+dotnet add package NuGet.CommandLine.XPlat --version 5.11.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.15
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 5.0.15
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.15
