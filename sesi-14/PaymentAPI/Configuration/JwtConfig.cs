@@ -1,0 +1,9 @@
+using System.Collections.Generic;
+
+namespace PaymentAPI.Configuration
+{
+    public class JwtConfig
+    {
+        public string Secret {get; set;}
+    }
+}
