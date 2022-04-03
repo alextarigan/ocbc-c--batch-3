@@ -2,22 +2,17 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TodoAppJWT.Data;
+using Assignment3.Data;
 using Microsoft.AspNetCore.Http;
-using TodoAppJWT.Models;
-using TodoAppJWT.Models.DTOs.Requests;
-using TodoAppJWT.Models.DTOs.Responses;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
+using Assignment3.Models;
 
 
 
-namespace TodoAppJWT.Controllers 
+namespace Assignment3.Controllers 
 {
     
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class TodoController : ControllerBase
     {
        private readonly ApiDbContext _context;
@@ -49,7 +44,8 @@ namespace TodoAppJWT.Controllers
                 await _context.Items.AddAsync(data);
                 await _context.SaveChangesAsync();
 
-                return CreatedAtAction("GetItem", new {data.Id}, data);
+                return CreatedAtAction("GetItem", new {data.paymentDetailId}, data);
+                
             }
             return new JsonResult("Something went wrong") {StatusCode = 500};
         }
@@ -72,9 +68,10 @@ namespace TodoAppJWT.Controllers
             if(existItem == null)
                 return NotFound();
 
-            existItem.Title = item.Title;
-            existItem.Description = item.Description;
-            existItem.Done = item.Done;
+            existItem.Name = item.Name;
+            existItem.Genre = item.Genre;
+            existItem.Duration = item.Duration;
+            existItem.ReleaseDate = item.ReleaseDate;
 
             await _context.SaveChangesAsync();
 

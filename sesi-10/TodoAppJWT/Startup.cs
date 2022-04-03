@@ -52,8 +52,10 @@ namespace TodoAppJWT
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TodoApp", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TodoAppWithJWT", Version = "v1" });
+                
             });
+            
             services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
             services.AddAuthentication(options => {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -64,6 +66,7 @@ namespace TodoAppJWT
                 var key = Encoding.ASCII.GetBytes(Configuration["JwtConfig:Secret"]);
 
                 jwt.SaveToken = true;
+            
                 jwt.TokenValidationParameters = new TokenValidationParameters {
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(key),
